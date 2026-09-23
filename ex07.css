@@ -1,0 +1,24 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.snorlax {
+    grid-column: span 2;
+    grid-row: 1 / 2;
+    padding: 16px;
+    border: 2px dashed pink;
+    width: 100%;
+}
+
+.diglett {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.zubat {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
